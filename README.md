@@ -1,16 +1,24 @@
-#  Telecom Churn Prediction
+#  Predicción de Cancelación de Clientes – Telecom
 
-Machine Learning project to predict customer churn in a telecom company using Logistic Regression and Random Forest models.
+##  Descripción del Proyecto
 
----
+Este proyecto desarrolla modelos de Machine Learning para predecir la cancelación de clientes (churn) en una empresa de telecomunicaciones.
 
-##  Objective
-
-Build predictive models to identify customers with high probability of cancellation (churn) and provide strategic business recommendations.
+El objetivo es identificar clientes con alta probabilidad de abandonar el servicio y proponer estrategias de retención basadas en datos.
 
 ---
 
-##  Technologies Used
+##  Objetivo
+
+Construir modelos predictivos capaces de:
+
+- Identificar clientes en riesgo de cancelación.
+- Analizar las variables más influyentes.
+- Generar recomendaciones estratégicas para reducir el churn.
+
+---
+
+##  Tecnologías Utilizadas
 
 - Python
 - Pandas
@@ -20,36 +28,36 @@ Build predictive models to identify customers with high probability of cancellat
 
 ---
 
-##  Models Implemented
+##  Modelos Implementados
 
-### 1️⃣ Logistic Regression
-- Accuracy: 0.80
+### 1️⃣ Regresión Logística
+- Exactitud: 0.80
 - Recall (Churn): 0.53
 - F1-Score: 0.58
 
 ### 2️⃣ Random Forest
-- Accuracy: 0.79
+- Exactitud: 0.79
 - Recall (Churn): 0.47
 - F1-Score: 0.54
 
 ---
 
-##  Key Insights
+##  Principales Hallazgos
 
-- Monthly contracts significantly increase churn probability.
-- Customer tenure strongly reduces churn risk.
-- Higher monthly charges influence cancellation.
-- Long-term contracts improve retention.
-
----
-
-##  Business Impact
-
-This project demonstrates how Machine Learning can help companies proactively identify at-risk customers and design data-driven retention strategies.
+- Los contratos mensuales aumentan significativamente el riesgo de cancelación.
+- La antigüedad del cliente reduce la probabilidad de abandono.
+- Los cargos mensuales altos influyen en la decisión de cancelar.
+- Los contratos de largo plazo mejoran la retención.
 
 ---
 
-##  Author
+##  Impacto para el Negocio
+
+Este proyecto demuestra cómo la Ciencia de Datos puede ayudar a anticipar la pérdida de clientes y diseñar estrategias de retención basadas en evidencia.
+
+---
+
+##  Autor
 
 Dan Satalaya  
-Machine Learning & Data Analysis Enthusiast
+Ingeniero de Sistemas | Ciencia de Datos
